@@ -200,7 +200,7 @@ else {
 var x = [];
 if (x[]=== undefined ){
 	console.log("Action 1");
-	console.log("because any not defined entity is 'undefined'");
+	console.log("because any not defined entity is 'undefined'");sdwdsdwdsds
 
 }
 else if (y % 2){
