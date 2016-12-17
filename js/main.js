@@ -448,21 +448,27 @@
 // var arr = null;//false;
 // console.log(Array.isArray(arr));
 
-var array = ["text",123,{},[],null];
-for (var i = 0; i < array.leght;i++){
-	var currentElement = array[i];
-	if (typeof  currentElement == "object"){
-		console.log(currentElement);
-		break;
-	}
-	console.log("iteration= ",i+1);
-}
+// var array = ["text",123,{},[],null];
+// for (var i = 0; i < array.leght;i++){
+	// var currentElement = array[i];
+	// if (typeof  currentElement == "object"){
+		// console.log(currentElement);/////////////////////////////////all correct but didnt work
+		// break;
+	// }
+	// console.log("iteration= ",i+1);
+// }
 
 
-
-
-
-
+// var array =["text",123,{},[],null];
+// var newArray = [];
+// for (var i=0; i<array.leght;i++){
+	// var currentElement = array[i];
+	// if (typeof currentElement !="object"
+	// && typeof currentElement != "function"|!currentElement === null){}
+	// newArray.push(currentElement);
+// }
+// console.log("itteratiom =",i+1);
+// }console.log();
 
 
 
