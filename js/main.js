@@ -124,18 +124,98 @@
 // test (1,"Epistifokl",null,[],256,"test");
 
 
-function pow(x,y){
-	var z=1;
-	y--;
-	if (y>0){
-		z *=x;
-		return pow(x,y,z);
-	}
-		else {
-			return x;
-		};
-}
-console.log(pow(2,3));
+// var x=123;//123;
+// var x=0xF;//15;
+// var x=5e3;//5000;
+// var x=5e-3;//0.005;
+
+// var infinity=Infinity;
+// var nan=NaN;
+// var number=123;
+
+// console.log(isFinite(infinity));
+// console.log(isFinite(nan));
+// console.log(isFinite(number));
+
+// console.log(+"56");//56;
+// console.log(+"");//0;
+
+// console.log(parseInt("12px"));//12
+// console.log(parseInt(""));//NaN;
+// console.log(parseFloat("10.5.5"));//10.5;
+// console.log(parseFloat("as10.5"));//NaN;
+// console.log(parseInt("FF",16));//255;
+
+// //rgb(255,255,255,0,5)
+// //#fffff;
+
+// console.log(isNaN(10));
+// console.log(isNaN("25,5"));
+// console.log(isNaN("test"));
+// console.log(isNaN(null));
+// console.log(isNaN(true));
+
+
+
+// function isNumber (n){
+	// return !isNaN(parseFloat(n) && isFinite(n))
+// }
+// console.log(isNaN(Infinity));
+
+// console.log(Math.round(1.5));//2
+// console.log(Math.round(1.4));//1
+// console.log(Math.ceil(1.1));//2
+// console.log(Math.floor(1.9));//1
+// console.log(15.5678.toFixed(2));//10.57 STRING
+// console.log(Math.round(10.255*100)/100);//10.26
+
+// var x = 0.1 + 0.2//0.300000000000004;
+// console.log(x);//0.300000000000004;
+// console.log((0.1*10+0.2*10))/10;//0.3;
+// console.log(+(0.1+0.2).toFixed(10));//0.3;
+// console.log(Math.round((0.1+0.2)*10)/10);//0.3;
+// console.log(99999999999999999999999999999999999);
+
+// var string = "string";
+// var string = 'string';
+// var string = 'it\'s test string';
+
+//console.log("first line \n next line ");
+//console.log("\\");
+var x = "A and B";
+// console.log('test   '.length);//7;
+// console.log('test',charAt(5));//"t";
+// console.log('test'[0]);//"t";
+// console.log("test",charAt[05]);
+// console.log('test'[5]);//undefined
+
+console.log("A and B".toUpperCase());
+console.log("A and B".toLowerCase());
+console.log(x);
+
+x=x.toLowerCase();//replace string with new in variable
+console.log(x);//now new string is variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
