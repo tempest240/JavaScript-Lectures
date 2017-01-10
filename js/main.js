@@ -114,14 +114,14 @@
 // var fn = x = 25 && function(){return 50}
 // console.log(fn);
 
-function test (number,name){
-	console.log(arguments);
-	console.log(number+=10);
-	console.log("hello",name);
-	var x = Array.apply(null,arguments)
-	console.log(x);
-}
-test (1,"Epistifokl",null,[],256,"test");
+// function test (number,name){
+	// console.log(arguments);
+	// console.log(number+=10);
+	// console.log("hello",name);
+	// var x = Array.apply(null,arguments)
+	// console.log(x);
+// }
+// test (1,"Epistifokl",null,[],256,"test");
 
 
 
