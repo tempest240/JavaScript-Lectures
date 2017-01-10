@@ -124,13 +124,18 @@
 // test (1,"Epistifokl",null,[],256,"test");
 
 
-
-
-
-
-
-
-
+function pow(x,y){
+	var z=1;
+	y--;
+	if (y>0){
+		z *=x;
+		return pow(x,y,z);
+	}
+		else {
+			return x;
+		};
+}
+console.log(pow(2,3));
 
 
 
